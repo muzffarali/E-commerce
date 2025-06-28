@@ -1,0 +1,138 @@
+.cartPage {
+   box-shadow: 0 2px 3px 0 silver;
+    width: 70%;
+    margin: 7rem auto 20rem;
+    padding: 2rem;
+    position: relative;
+    h1{
+      border-bottom: 1px solid silver;
+      padding-bottom: 3rem;
+      font-size: 3rem;
+    }
+  }
+  .cart-heading{
+      margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+    .cartContaniner{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem 2rem 0px;
+    position: relative;
+    img{
+   width: 3rem;
+    }
+  }
+
+    
+
+  .price{
+    color: rgb(73, 120, 249);
+    font-size: 1.2rem;
+    font-weight: 600;
+     margin-right: 2rem;
+  }
+  .incrDecrBtn{
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0; 
+    width: 8rem;
+    margin-top: 1rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.incr-btn {
+    background: none;
+    border: none;
+    color: rgb(14, 70, 224);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-left: .2rem;
+}
+.quantity {
+width: 3rem;
+font-size: 1.2rem;
+font-weight: bolder;
+color: black;
+padding: 0 3px;
+border: none;
+background-color:  #e0e0e0;
+    margin-left: 1rem;
+        margin-left: 2rem;
+}
+.decr-btn{
+  background: none;
+  border: none;
+  color: rgb(14, 70, 224);
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.removeBtn{
+  border: none;
+    font-size: 1.3rem;
+    background: white;
+    color: red;
+}
+.cartBackbtn{
+  border: none;
+    margin-right: 26rem;
+    background: none;
+    color: rgb(73, 120, 249);
+}
+.totalAoumnt{
+    margin-left: 45rem;
+    margin-right: 9rem;
+    margin-top: -17rem;
+        background: #f5f5f5;
+    div{
+      display: flex;
+          line-height: 2rem;
+              margin-left: .5rem;
+      p{
+        margin-left: 1rem;
+        color: rgb(73, 120, 249);
+    font-weight: 600;
+      }
+    }
+}
+@media (max-width: 800px) {
+    .cartPage {
+        width: 96%;
+    }
+    .incrDecrBtn{
+          height: 1rem;
+    width: 3rem;
+    margin-left: 1rem;
+    .incr-btn{
+          font-size: .9rem;
+    }
+    .quantity{
+    margin-left: .5rem;
+      padding: 0px 0px;
+    width: 1rem;
+    font-size: .7rem;
+    }
+    .decr-btn{
+          font-size: .9rem;
+    }
+    }
+    .price{
+      margin-right: 1rem;
+    font-size: .7rem;
+    }
+    .cartBackbtn{
+      margin-right: 7rem;
+    }
+    .totalAoumnt{
+          margin-left: 2rem;
+    }
+}

@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color:  black;
+    font-size: 1.8rem;
+  }
+.prodcutSection{
+    width: 73%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    padding-top: 11rem;
+    .backBtn{
+      position: absolute;
+    top: 14rem;
+    left: 3rem;
+    border: none;
+    background: white;
+    font-size: 1.3rem;
+    color: rgb(73 120 249)
+    }
+    
+    .productCard {
+        min-width: 22rem;
+        width: 70vw;
+        display: flex;
+        box-shadow: rgb(255, 247, 247) 0px 2px 8px 0px;
+        border-radius: 2rem;
+      }
+      .cardContent {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column; 
+        padding-left: 8rem;
+        width: 173%;
+      }
+      
+  .image {
+    padding-top: 8rem;
+    padding-left: 7rem;
+  }
+      img{
+           width: 10rem;
+    margin: 0;
+    height: auto;
+    }
+   
+    .title{
+        font-size: 1.8rem;
+        color: #565555;
+    }
+    .category{
+      font-size: 1rem;
+    font-weight: 600;
+    color: rgb(73, 120, 249);
+    margin-top: 1rem;
+    }
+    .discription{
+       font-size: 1rem;
+       color: #565555;
+       width: 34rem;
+    }
+    .price{
+        font-size:2.5rem ;
+        font-weight: bold;
+        line-height: 8rem;
+    color: rgb(73 120 249);
+    }
+    .addToCartBtn{
+        padding: .50rem 3.6rem;
+    border-radius: .30rem;
+        background-color: rgb(73 120 249);
+        color: white;
+        border: none;
+        margin-top: 2rem;
+      }
+      .incr-decr-btn{
+        display: flex;
+        align-items: center;
+        background-color: #e0e0e0; 
+        width: 12rem;
+        margin-top: 1rem;
+    height: 2rem;
+    border-radius: .30rem;
+    }
+    
+    .incr-btn {
+        background: none;
+        border: none;
+        color: rgb(73 120 249);
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+    }
+    .decr-btn{
+      background: none;
+      border: none;
+      color: rgb(73 120 249);
+      font-size: 1.7rem;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      padding-left: 4rem;
+    }
+    
+.quantity {
+  width: 4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+    padding: 0 10px;
+    border: none;
+   background-color:  #e0e0e0;
+   padding-left: 2rem;
+}
+  }
+  @media(max-width: 800px) {
+    html{
+          max-width: 100%;
+    overflow-x: hidden;
+    body{
+      width: 100%;
+    overflow-x: hidden;
+    }
+    }
+    .prodcutSection{
+      height: 100% !important;
+    }
+    .productCard{
+        flex-direction: column;
+        justify-content: center;
+    }
+     .image{
+      padding-top: 4rem;
+      img{
+            width: 8rem;
+            height: fit-content;          
+      }
+       }
+    .cardContent {
+            padding: 0 0 0 1rem !important;
+      .title{
+        width: 21rem;
+      }
+        .discription {
+            padding: 0 14rem 0 0 !important;
+          
+        }
+    }
+}
