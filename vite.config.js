@@ -17,7 +17,7 @@ export default defineConfig({
       },
     },
     react(),],
-   base: '/Ecommerce/',
+   base: '/E-commerce/',
 
   optimizeDeps: {
     force: true,
